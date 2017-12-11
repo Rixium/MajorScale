@@ -1,4 +1,4 @@
-// Challenge by Cosmologicon
+// ** Challenge by Cosmologicon **
 //
 // ** Background **
 // For the purpose of this challenge, the 12 musical notes in the chromatic scale are named:
