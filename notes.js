@@ -57,6 +57,8 @@ function solfegeSelectedFunc(e) {
 
 function initialize(e) {
   canvas = document.getElementById('majorScales');
+  canvas.width = screen.width;
+  canvas.height = screen.height;
   context = canvas.getContext('2d');
   noteForm = document.getElementById('selectedNoteForm');
   solfegeForm = document.getElementById('selectedSolfegeForm');
