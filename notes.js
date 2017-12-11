@@ -26,7 +26,7 @@
 // Instead it would be called Bb major. Don't worry about that for this challenge.
 // Just always use the names of the notes given above.)
 //
-// ** Challenge **
+// * Challenge *
 // Write a function that takes the name of a major scale and the solfège name of a note,
 // and returns the corresponding note in that scale.
 
