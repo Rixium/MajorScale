@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8" />
+    <title>Major Scales</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        border-style: none;
+      }
+
+      html, body {
+        width:100%;
+        height:100%;
+        background: #EEE;
+      }
+
+      canvas {
+        height: 100vh;
+        width: 100vw;
+        background: #EEE;
+        display: block;
+
+      }
+
+      form {
+        position: absolute;
+        margin: 20px;
+        top: 10;
+        left: 10;
+      }
+
+      select {
+        display: inline;
+        margin: 10px;
+      }
+
+      option {
+        padding: 10px;
+      }
+    </style>
+
+    <script src="notes.js"></script>
+
+  </head>
+
+  <body>
+    <form>
+      <fieldset>
+        <p>Select a Note</p>
+      <select name="Note" id='selectedNoteForm'>
+       <option value="C">C</option>
+       <option value="C#">C#</option>
+       <option value="D">D</option>
+       <option value="D#">D#</option>
+       <option value="E">E</option>
+       <option value="F">F</option>
+       <option value="F#">F#</option>
+       <option value="G">G</option>
+       <option value="G#">G#</option>
+       <option value="A">A</option>
+       <option value="A#">A#</option>
+       <option value="B">B</option>
+      </select>
+      <p>Select a Solfége</p>
+      <select name="Solfege" id='selectedSolfegeForm'>
+       <option value="Do">Do</option>
+       <option value="Re">Re</option>
+       <option value="Mi">Mi</option>
+       <option value="Fa">Fa</option>
+       <option value="So">So</option>
+       <option value="La">La</option>
+       <option value="Ti">Ti</option>
+      </select>
+    </fieldset>
+    </form>
+    <canvas id='majorScales' width="1920" height="1080"/>
+
+  </body>
+
+</html>
